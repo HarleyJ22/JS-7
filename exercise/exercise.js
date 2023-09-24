@@ -2,7 +2,7 @@ function printName() {
     var helloName = "Hello John";
     function inner() {
     setTimeout(() => {
-    console.log("Hello John");
+    console.log(helloName);
   }, 1000);
     }
      inner();
